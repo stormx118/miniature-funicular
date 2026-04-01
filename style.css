@@ -37,7 +37,7 @@ body{
   font-weight: 400;
   font-size: 18px;
   padding: 20% 1rem 10% 1rem;
-  
+  margin-block-end:5%;
 }
 .container{
   width: 55%;
@@ -46,11 +46,6 @@ body{
   padding: 48px 48px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 32px;
-  position:absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 5%;
 }
 img{
   width: 100%;
