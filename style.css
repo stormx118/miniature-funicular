@@ -170,6 +170,7 @@ hr{
     width: 100%;
     border-radius:0;
     padding: 0;
+    margin-block-start:0;
   }
   img{
     width: 100%;
@@ -191,6 +192,7 @@ hr{
     width: 100%;
     border-radius:0;
     padding: 0;
+    margin-block-start:0;
   }
   img{
     width: 100%;
@@ -208,8 +210,9 @@ hr{
   }
   .container{
     width: 100%;
-    top: 0;
+    border-radius:0;
     padding: 0;
+    margin-block-start:0;
   }
   img{
     width: 100%;
