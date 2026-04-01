@@ -164,16 +164,20 @@ hr{
 @media(max-width: 768px){
   body{
     display: block;
-    
+    margin-block-end:0;
   }
   .container{
     width: 100%;
-    top: 0;
+    border-radius:0;
     padding: 0;
   }
   img{
     width: 100%;
     height: 300px;
+    border-radius:0;
+  }
+   .mobile-design{
+    padding:15px 15px;
   }
 }
 
@@ -181,23 +185,26 @@ hr{
 
   body{
     display: block;
-    
+     margin-block-end:0;
   }
   .container{
     width: 100%;
-    top: 0;
+    border-radius:0;
     padding: 0;
   }
   img{
     width: 100%;
     height: 200px;
+    border-radius:0;
   }
-
+   .mobile-design{
+    padding:15px 15px;
+  }
 }
 @media(max-width:375px){
   body{
     display: block;
-    
+    margin-block-end:0;
   }
   .container{
     width: 100%;
@@ -207,5 +214,8 @@ hr{
   img{
     width: 100%;
     height: 200px;
+  }
+  .mobile-design{
+    padding:15px 15px;
   }
 }
